@@ -1,0 +1,267 @@
+:root {
+  --heading-color: #212121;
+  --hover-color: #2196f3;
+  --auxiliary-color: #757575;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #757575;
+  background-color: #ffffff;
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+}
+
+/* Подчёркивание ссылок */
+/* Маркеры списков */
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* Оформление логотипа */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #2196f3;
+}
+
+.studio {
+  color: #000000;
+}
+
+.footer .studio {
+  color: #ffffff;
+}
+
+/* Навигация */
+
+.site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.site-nav .link {
+  color: var(--heading-color);
+}
+.site-nav .active {
+  color: var(--hover-color);
+}
+
+.mail .link {
+  color: var(--auxiliary-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.mail .link:hover,
+.mail .link:focus {
+  color: var(--hover-color);
+}
+
+/* Герой */
+.hero {
+  color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  background-color: var(--hover-color);
+  color: #ffffff;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+}
+
+/* Стилизация заголовков h2 */
+
+.features .heading {
+  color: var(--heading-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Наши преимущества */
+/* Чем мы занимаемся */
+
+.features .subject {
+  color: var(--heading-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* Эффект наплыва */
+/* Цвет фона позже задать для блочной обёртки */
+
+.influx {
+  background-color: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Наша команда */
+
+.section {
+  background-color: #f5f4fa;
+}
+
+.name {
+  color: var(--heading-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.desc {
+  font-weight: 400;
+
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Подвал */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.footer .map {
+  color: #ffffff;
+}
+
+.footer .mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.socials .text {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.form .slogan {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.block {
+  background-color: var(--hover-color);
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.block .text {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.9;
+  /* align-items: center;
+  text-align: center; */
+}
+
+.copy {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Портфолио */
+
+/* Кнопки */
+
+.button {
+  background-color: #f5f4fa;
+  color: var(--heading-color);
+  padding: 6px 22px;
+  border: none;
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--hover-color);
+  color: #ffffff;
+}
+
+/* Примеры работ */
+
+.example .subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.example .text {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+.example .heading {
+  color: var(--heading-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
